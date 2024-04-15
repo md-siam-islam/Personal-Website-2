@@ -1,0 +1,445 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+  background-color:#3F384C;
+}
+
+nav ul{
+    text-align: center;
+    list-style-type:none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px 20px;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-family: "Metamorphous", serif;
+}
+nav ul li a:hover{
+    color: chartreuse;
+    background-color: cadetblue;
+    transition: all ease-in 1s;
+}
+nav ul ul{
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    width: 150px;
+    display: none;
+    background-color: cyan;
+}
+
+nav ul ul li{
+    display: block;
+}
+nav ul li:hover ul{
+    display: block;
+}
+
+.icon img{
+    width: 40px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 40px;
+    position: relative;
+    animation-name: img-an;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    float: left;
+}
+@keyframes img-an{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        top: 60px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+.tex-1 h2{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 15px;
+    
+}
+.tex-1 p{
+    font-family: "Metamorphous", serif;
+    text-align: center;
+    font-size: 20px;
+}
+.clear{
+    clear: both;
+}
+
+.part-2 img{
+    width: 250px;
+    margin-top: 250px;
+    margin-left: 230px;
+    border: 3px solid lightslategray;
+    border-radius: 30px;
+    box-shadow: 0 0 20px lightseagreen;
+    float: left;
+    position: relative;
+    transition: 3s;
+}
+.part-2 img:hover{
+    box-shadow: 0 0 30px red;
+    transform: scale(0.8);
+    
+}
+.part-2 .tex-2{
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 580px;
+
+}
+.part-2 button{
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    color: black;
+    background-color: hotpink;
+    box-shadow: 0 0 15px goldenrod;
+    transition: 1s;
+}
+.part-2 button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px black;
+}
+.part-3 img{
+    height: 250px;
+    margin-top: 380px;
+    margin-left: 240px;
+    border: 3px solid #3F384C;
+    border-radius: 30px;
+    box-shadow: 0 0 10px lightseagreen;
+    float: left;
+    position: relative;
+    transition: 3s;
+}
+.part-3 img:hover{
+    box-shadow: 0 0 30px red;
+    transform: scale(0.8);
+}
+.part-3 .tex-3{
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 615px;
+}
+.part-3 button{
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    color: black;
+    background-color: lightgreen;
+    box-shadow: 0 0 15px goldenrod;
+    transition: 1s;
+}
+.part-3 button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px black;
+}
+
+
+.part-4 .tex-4{
+    text-align: center;
+    margin-top: 250px;
+    padding: 50px;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+.ser1 .ser2{
+    width: 100%;
+    overflow: hidden;
+
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 15px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 45px;
+    margin: 0 auto;
+    
+}
+.ser1 i , .ser2 i{
+    margin-left: 110px;
+}
+.ser1 h1 , .ser2 h1{
+    text-align: center;
+}
+.ser1 i:hover{
+    color: chartreuse;
+    transition: all ease-in 0.5s;
+}
+.ser2 i:hover{
+    color: chartreuse;
+    transition: all ease-in 0.5s;
+}
+.ser1 h1:hover{
+    color: chartreuse;
+    transition: all ease-in 0.5s;
+}
+.ser2 h1:hover{
+    color: chartreuse;
+    transition: all ease-in 0.5s;
+}
+
+.ser1 p{
+    color: rgba(0,0,0,0.5);
+}
+.ser2 p{
+    color: rgba(0,0,0,0.5);
+}
+.tex-5{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.tex-5 p{
+    color: hotpink;
+    font-weight: bold;
+}
+.part-5 .card{
+    width: 280px;
+    height: 130px;
+    background-color: #3F384C;
+    float: left;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 40px;
+    border: 2px solid #3F384C;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: 0 0 18px #3F384C;
+    transition:2s;
+}
+.part-5 .card:hover{
+    transform: scale(1.1);
+}
+
+.part-5 .card i{
+    color: hotpink;
+    font-size: 25px;
+    
+}
+.part-5 .card p{
+    color: white;
+    font-weight: bold;
+}
+.part-5 .card-2{
+    width: 280px;
+    height: 130px;
+    background-color: #3F384C;
+    float: left;
+    text-align: center;
+  
+    margin-right: 40px;
+    border: 2px solid #3F384C;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: 0 0 18px #3F384C;
+    transition:2s;
+}
+.part-5 .card-2:hover{
+    transform: scale(1.1);
+}
+.part-5 .card-2 i{
+    color: hotpink;
+    font-size: 25px;
+    
+}
+.part-5 .card-2 p{
+    color: white;
+    font-weight: bold;
+}
+.part-5 .card-3{
+    width: 280px;
+    height: 130px;
+    background-color: #3F384C;
+    float: left;
+    text-align: center;
+  
+    margin-right: 40px;
+    border: 2px solid #3F384C;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: 0 0 18px #3F384C;
+    transition:2s;
+}
+.part-5 .card-3:hover{
+    transform: scale(1.1);
+}
+.part-5 .card-3 i{
+    color: hotpink;
+    font-size: 25px;
+    
+}
+.part-5 .card-3 p{
+    color: white;
+    font-weight: bold;
+}
+.part-6{
+    margin-top: 100px;
+    width: 100%;
+}
+.part-6-1{
+    width: 50%;
+    float: left;
+}
+.part-6-1 input{
+    width: 380px;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-left: 180px;
+    border: 2px solid #3F384C;
+    border-radius: 15px;
+    background-color: #3F384C;
+    color: white;
+    box-shadow: 0 0 15px #3F384C;
+    
+}
+.part-6-2{
+    width: 40%;
+    float: left;
+}
+.part-6-2 .tex{
+    resize: none;
+}
+.tex{
+    text-align: center;
+    width: 480px;
+    height: 200px;
+    border: 2px solid #3F384C;
+    border-radius: 15px;
+    background-color: #3F384C;
+    box-shadow: 0 0 15px #3F384C;
+}
+.part-6 button{
+    margin-left: 355px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: hotpink;
+    border: 2px solid #3F384C;
+    border-radius: 15px;
+    background-color: #3F384C;
+    box-shadow: 0 0 15px #3F384C;
+    
+}
+footer{
+    background: #343434;
+    padding-top: 50px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: hotpink;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+
+}
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
